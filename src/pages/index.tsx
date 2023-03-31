@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Obfuscate from 'react-obfuscate';
+import { Email } from "react-obfuscate-email";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +30,11 @@ export default function Home() {
                 />
               </svg>
             </Obfuscate>
+          </span>
+          <span>
+            <Email email="reanderagulto29@gmail.com">
+              Email me!
+            </Email>
           </span>
         </div>
       </main>
